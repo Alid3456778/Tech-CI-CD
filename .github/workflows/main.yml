@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: '16'
 
-      - runs: npm i
+      - name: Install Dependenci
+        run: npm i
 
 
