@@ -1,1 +1,21 @@
-name :
+name : CI Pipline 
+
+on :
+  push:
+    braches:
+      - main
+
+jobs:
+  runs-on : ubuntu-latest
+  - name: Checkout Code
+    uses: action/checkout@v3
+
+  - name: Node install
+    uses: action/setup-node@v3
+    with:
+      node-version: '16'
+
+  - name: Install Dependenci
+    runs: npm i
+
+  
