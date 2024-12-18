@@ -1,0 +1,22 @@
+{
+  "name": "tech-ci-cd",
+  "version": "1.0.0",
+  "description": "small example of CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alid3456778/Tech-CI-CD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alid3456778/Tech-CI-CD/issues"
+  },
+  "homepage": "https://github.com/Alid3456778/Tech-CI-CD#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
