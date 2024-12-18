@@ -4,13 +4,13 @@ on :
   push:
     braches:
       - main
-      
+
   pull_request:
     branches:
       - main
 
-jobs:
-  runs-on : ubuntu-latest
+runs-on : ubuntu-latest
+steps:
   - name: Checkout Code
     uses: action/checkout@v3
 
