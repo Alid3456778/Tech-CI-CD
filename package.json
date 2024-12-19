@@ -4,7 +4,7 @@
   "description": "small example of CI/CD",
   "main": "index.js",
   "scripts": {
-    "test": "unit"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/Alid3456778/Tech-CI-CD#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "unit": "^1.4.3-0"
   },
   "devDependencies": {
     "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "supertest": "^7.0.0"
   }
 }

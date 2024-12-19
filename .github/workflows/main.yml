@@ -23,7 +23,4 @@ jobs:
       - name: Install Dependenci
         run: npm i
 
-      - name: Start Application
-        run: node index.js
-
 
